@@ -1,5 +1,25 @@
 var $header = $('header');
 var $h1 = $('h1');
+var $main = $('main');
+var $p = $('main p:first-child');
+var $h2 = $('h2');
+var $main = $('mai:li');
+var $img = $('img');
+var $li = $('li:first-child');
+var $li = $('li:last-child');
+var $dl = $('dl');
+var $dt = $('dt');
+var $li2 = $('li:last-child');
 
-$header.addmasthead('masthead');
+$header.addClass('masthead');
 $h1.removeClass('big-heading').addClass('logo');
+$main.addClass('wrapper');
+$p.addClass('intro');
+$h2.addClass('slug-head');
+$main.addClass('slug-list');
+$img.addClass('slug.img');
+$li.addClass('slug-list-first');
+$li.addClass('slug-list-last');
+$dl.addClass('classification');
+$dt.removeClass('big-label');
+$li2.show('last-child');
